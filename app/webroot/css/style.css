@@ -1,0 +1,99 @@
+
+/* すべての要素から余計な設定を削除 */
+*
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+/* link */
+a
+{
+	text-decoration: none;
+	color: #008B8B;
+}
+
+div.header
+{
+
+}
+
+div.header.brand
+{
+
+}
+
+div.header-top
+{
+	clear: both;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top: 0px;
+}
+
+/* ナビゲーションの共通設定 */
+div.nav
+{
+	margin:5px 5px 5px 5px;
+}
+
+div.nav-side
+{
+	float:left;
+	width: 20%;
+	height: auto;
+}
+
+.nav-side ul
+{
+	list-style: none;
+}
+
+.nav-side li
+{
+	padding:5px 0px 5px 0px;
+}
+
+.nav-side a
+{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	display: block;
+	background-color: #B0E0E6;
+}
+
+/* ナビゲーションを上に固定 */
+div.nav-top
+{
+
+}
+
+/* コンテンツの共通設定 */
+div.contents
+{
+	float: right;
+	padding: 5px 5px 5px 5px;
+	width: 70%;
+	height: auto;
+}
+
+
+
+
+/* フッターの共通設定 */
+div.footer
+{
+
+}
+
+/* フッターを下部固定 */
+div.footer-bottom
+{
+	width:100%;
+	clear: both;
+	position: fixed;
+	bottom: 0px;
+}
